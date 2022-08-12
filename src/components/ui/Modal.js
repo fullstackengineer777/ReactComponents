@@ -63,7 +63,7 @@ export const MainButton = styled.button`
 `;
 function ModalContainer({ setOpen, data, setData }) {
   const [localData, setLocalData] = useState(data);
-  const { clicks } = localData;
+  const { clicks } = localData; //{ clicks } means object???
   function close() {
     setOpen(false);
   }
